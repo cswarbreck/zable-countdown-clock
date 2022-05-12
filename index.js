@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const countDownDate = new Date("May 18, 2022 12:00:00").getTime();
+    const countDownDate = new Date("May 25, 2022 12:00:00").getTime();
     // const countDownDate = new Date("April 28, 2022 12:00:00").getTime();
 
     const countdown = setInterval(() => {
