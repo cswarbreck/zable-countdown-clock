@@ -30,6 +30,19 @@ body {
     position: relative;
 }
 
+.container {
+  position: relative;
+}
+
+.wrapper {
+  position: absolute;
+  margin: 0;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
 .header {
     height: auto;
     color:#ffffff; 
@@ -63,8 +76,8 @@ iframe {
 }
 
 #logo {
-    height: 200px;
-    width: 200px;
+    height: 220px;
+    width: 220px;
     padding: 24px 0;
 }
 
@@ -75,12 +88,12 @@ iframe {
 }
 
 h1 {
-    font-size: 74px; 
+    font-size: 88px; 
     font-family: GilroyBold;
 }
 
 h2 {
-  font-size: 100px;
+  font-size: 110px;
 }
 
 h3 {
@@ -89,7 +102,7 @@ h3 {
 }
 
 h4 {
-  font-size: 52px;
+  font-size: 64px;
 }
 
 p {
