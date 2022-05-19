@@ -32,27 +32,23 @@ body {
 
 .container {
   position: relative;
-  height: 100vh
+  height: 100vh;
+  margin: 0 auot;
 }
 
 .wrapper {
-  position: absolute;
-  margin: 0;
-  top: 50%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  margin-top: 100px;
 }
 
 .header {
-    height: auto;
-    color:#ffffff; 
-    display: flex; 
-    justify-content: space-evenly;
+  height: auto;
+  color:#ffffff; 
+  display: flex; 
+  justify-content: space-evenly;
 }
 
 .titles {
-    padding: 0 24px;
+  padding: 0 24px;
 }
 
 .countdown-d {

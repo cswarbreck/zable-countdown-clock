@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const countDownDate = new Date("May 18, 2022 16:00:00").getTime();
+    const countDownDate = new Date("May 25, 2022 12:00:00").getTime();
     // const countDownDate = new Date("April 28, 2022 12:00:00").getTime();
 
     const countdown = setInterval(() => {
@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const m = '<span class="countdown-m">m</span>';
       const s = '<span class="countdown-s">s</span>';
 
-      document.getElementById("countdown").innerHTML = `${days} ${d} ${hours} ${h} ${minutes} ${m} ${seconds} ${s}`;
+      document.getElementById("countdown").innerHTML = `${days}${d} ${hours}${h} ${minutes}${m} ${seconds}${s}`;
     
       if (timeLeft < 0) {
         clearInterval(countdown);
